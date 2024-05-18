@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width
+    , initial-scale=1.0" >
+    <title>Best online food delivery services in India | MyMeal.com</title>
+    <link rel = "stylesheet" href = "styles.css">
+</head>
+<body>
+    
+    <nav id = "navbar">
+        <div id = "logo">
+            <img src = "logo.png" alt = "Logo" height = "100">
+        </div>
+        <ul>
+            <li class = "item"><a href = "#">Home</a></li>
+            <li class = "item"><a href = "#">Services</a></li>
+            <li class = "item"><a href = "#">Blogs</a></li>
+            <li class = "item"><a href = "#">About Us</a></li>
+            <li class = "item"><a href = "#">Contact Us</a></li>
+
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1 class="h-primary center"><br>Hungryy ?<br>Good, We are here to serve you.</h1><br>
+        <h1 style="font-size: 2.8rem;
+        font-weight: bold;
+        padding: 12px;
+        font-family: Arial rounded MT bold">Welcome to MyMeals</h1>
+        <p> Your gateway to culinary indulgence at home. With a wide array of delectable options from the finest local eateries, 
+            we bring the flavors you love right to your doorstep.Explore our thoughtfully crafted menu,<br> ranging 
+            from comfort classics to innovative creations, all designed to elevate your dining experience.<br>At MyMeal we ensures that 
+            very craving is met with exceptional 
+            taste and convenience.<br>Let us redefine the way you enjoy food delivery – effortless and always a delight.</p>
+             <button class="btn">Order Now</button>
+    </section>
+    <br><br><br><br><br><br><br><br>
+    <h1 class="h-primary center">Our Services</h1>
+    <section id="services">
+        <div id="services">
+            <div class="box">
+                <img src="delivery.png">
+                <h2 class="h-secondary center">Food Delivery</h2>
+                <p text-align="justify">Discover a world of flavors with our seamless food ordering service. Browse a diverse menu, place your order 
+                    with ease, and experience the convenience of doorstep delivery. Savor the goodness of your favorite dishes from local 
+                    restaurants, all at your fingertips.</p>
+            </div>
+            <div class="box">
+                <img src="catering.png">
+                <h2 class="h-secondary center">Catering Services</h2>
+                <p text-align="justify">Elevate your special events with our premium catering service designed to transform your events into 
+                    unforgettable experiences. Choose from a wide selection of cuisines, each prepared by our skilled chefs using the finest,
+                    freshest ingredients.</p>
+            </div>
+            <div class="box">
+                <img src="plan.png">
+                <h2 class="h-secondary center">Monthly Meal Plan</h2>
+                <p text-align="justify">Discover a world of flavors with our seamless food ordering service. Browse a diverse menu, place your order 
+                    with ease, and experience the convenience of doorstep delivery. Savor the goodness of your favorite dishes from local 
+                    restaurants, all at your fingertips.</p>
+            </div>
+        </div>
+    </section>
+
+    <h1 class="h-primary center">Our Products</h1>
+    <section id="products">
+        <div class="product-list">
+            <div class="product-item">
+                <img src="pizza.jpeg" alt="Margeritha Pizza">
+                <h2 class="product-title">Marheritha Pizza</h2>
+                <p class="product-price">$10.00</p>
+                <button class="btn add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="burger.jpeg" alt="Product 2">
+                <h2 class="product-title">Burger</h2>
+                <p class="product-price">$20.00</p>
+                <button class="btn add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="noodles.jpeg" alt="Product 3">
+                <h2 class="product-title">Noodles</h2>
+                <p class="product-price">$15.00</p>
+                <button class="btn add-to-cart">Add to Cart</button>
+            </div>
+            <!-- Add more products as needed -->
+        </div>
+    </section>
+
+    <section id="cart">
+        <h1 class="h-primary center">Shopping Cart</h1>
+        <div class="cart-container">
+            <table id="cart-table">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Cart items will be added here dynamically -->
+                </tbody>
+            </table>
+            <div class="cart-summary">
+                <h2>Cart Summary</h2>
+                <p>Total Items: <span id="total-items">0</span></p>
+                <p>Total Price: $<span id="total-price">0.00</span></p>
+                <button class="btn checkout">Checkout</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h1 class="h-primary center">A Little About Us</h1>
+        <p>We are passionate about bringing the best food delivery experience to our customers. Our team works tirelessly to curate a diverse menu that caters to all tastes and preferences. Whether you're looking for a quick bite or planning a grand event, MyMeal is here to make every meal special.</p>
+    </section>
+
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                    <label for="mobile">Mobile No.:</label>
+                    <input type="phone" name="mobile" id="mobile" placeholder="Enter your Mobile No">
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email id">
+                    <label for="message">Enter your Message:</label>
+                    <textarea name="message" id="message" rows="5" cols="30"></textarea>
+                    <button type="submit" class="btn">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="center">
+            Copyright &copy; www.MyMeals.com. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
